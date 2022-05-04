@@ -1378,7 +1378,7 @@ def test_arc_angles():
 
 @image_comparison(['arc_ellipse'], remove_text=True)
 def test_arc_ellipse():
-    xcenter, ycenter = 0.38, 0.52
+    xcenter, ycenter = 0.38, 0.5
     width, height = 1e-1, 3e-1
     angle = -30
 
